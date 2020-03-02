@@ -1,0 +1,29 @@
+{
+  "name": "tcp-over-https-proxy",
+  "version": "1.0.0",
+  "description": "Use https proxy create tcp tunnel, forward local port to server behind proxy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "tcp-over-https-proxy": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyrilluce/tcp-over-https-proxy.git"
+  },
+  "keywords": [
+    "tcp",
+    "portforwarding",
+    "https",
+    "proxy",
+    "tunnel"
+  ],
+  "author": "cyrilluce",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cyrilluce/tcp-over-https-proxy/issues"
+  },
+  "homepage": "https://github.com/cyrilluce/tcp-over-https-proxy#readme"
+}
